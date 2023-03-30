@@ -6,12 +6,10 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 
-
-
 const hedingString: string = "hello all peopel"
 const IndexPage = () => (
   <Layout>
-     <h1>{hedingString}</h1>
+    <h1 className="text-red-500">{hedingString}</h1>
   </Layout>
 )
 
