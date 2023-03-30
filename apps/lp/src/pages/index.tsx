@@ -4,8 +4,8 @@ import tw from "tailwind-styled-components"
 import Layout from "../components/layout/index"
 import { Seo } from "../components/layout"
 
-const Title = tw.span`text-5xl text-green-500 uppercase font-bold`
-const Caption = tw.span`text-3xl text-gray-900 uppercase`
+const Title = tw.span`text-5xl text-green-500 uppercase font-bold font-title`
+const Caption = tw.span`text-3xl text-gray-900 uppercase font-title`
 
 const Description = tw.h1`text-2xl text-gray-500 mt-6`
 const Separator = tw.div`w-10 h-1 bg-blue-500`
